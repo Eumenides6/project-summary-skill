@@ -10,7 +10,7 @@ Priority questions:
 2. 你的个人职责是什么？独立完成、主导某模块、参与协作、负责优化，还是课程/开源项目？
 3. 项目是否上线或被真实使用？用户量、数据量、请求量、生成量、部署环境是什么？
 4. 有没有真实指标？例如延迟、准确率、通过率、成本、自动化节省时间、测试覆盖率。
-5. 简历需要中文还是英文？偏校招、社招、实习、作品集，还是面试讲稿？
+5. 希望用什么输出语言？可以是中文、英文、双语，或任何用户指定的语言；用途偏校招、社招、实习、作品集，还是面试讲稿？
 
 Opening message pattern:
 
@@ -20,7 +20,7 @@ Opening message pattern:
 2. 你在这个项目里的个人职责是什么？
 3. 项目是否上线或被真实使用？有没有用户量/数据量/请求量？
 4. 有没有真实性能或业务指标？
-5. 你希望输出中文简历版、英文简历版，还是面试讲稿？
+5. 你希望用什么语言输出？中文、英文、双语或其他指定语言都可以；形式是简历版、作品集版，还是面试讲稿？
 ```
 
 If the user gives a JD, map project evidence to JD keywords. If no role is provided, infer the strongest positioning from the repository and label it as an assumption.

@@ -13,7 +13,7 @@ Turn a real project into an evidence-backed resume story. Read the project first
 
 1. Intake gate:
    - Before scanning files or drafting, first collect user context unless the user explicitly says to skip questions, "快速生成", "直接分析", or already provides enough context.
-   - Ask up to 5 concise questions in one message. Prioritize target role/JD, personal ownership, deployment or usage status, real metrics, and desired output language/use case.
+   - Ask up to 5 concise questions in one message. Prioritize target role/JD, personal ownership, deployment or usage status, real metrics, and requested output language, including bilingual or any user-specified language.
    - If the user answers partially, continue with their answers and put the remaining gaps in `待确认信息`.
    - If the user does not answer or asks to proceed without answers, continue from repository evidence and clearly state assumptions.
 
@@ -50,7 +50,7 @@ Turn a real project into an evidence-backed resume story. Read the project first
    - Distinguish source-backed facts from reasonable inferences.
 
 7. Produce resume-ready output:
-   - Match the user's language. For Chinese resumes, use concise action verbs and result-first phrasing.
+   - Match the user's requested output language. If none is specified, use the user's current language. For Chinese resumes, use concise action verbs and result-first phrasing.
    - Prefer 3-5 bullets for a resume section, plus a fuller structured analysis when requested.
    - Make each bullet follow: action + technical method + difficulty/scale + result.
    - Remove filler such as "负责了很多", "参与开发", "提升用户体验" unless tied to concrete work or evidence.

@@ -8,7 +8,7 @@ Project Summary is a Codex skill that turns real repositories into resume-ready 
 
 ### 适合什么场景
 
-当你需要把一个项目写进简历、作品集或面试材料时，可以用这个 Skill 先读取项目证据，再生成更可信的项目描述。它会优先确认目标岗位、个人职责、上线情况、真实指标和输出语言，避免直接编造数据或把代码存在误写成个人贡献。
+当你需要把一个项目写进简历、作品集或面试材料时，可以用这个 Skill 先读取项目证据，再生成更可信的项目描述。它会优先确认目标岗位、个人职责、上线情况、真实指标和你想要的输出语言，支持中文、英文、双语或其他指定语言，避免直接编造数据或把代码存在误写成个人贡献。
 
 它会围绕这些维度重写项目：
 
@@ -52,7 +52,7 @@ cp -R project-summary ~/.codex/skills/project-summary
 
 ### When To Use
 
-Use this skill when you want to turn a repository into material for a resume, portfolio, or interview. The skill asks for the target role, JD, personal ownership, deployment status, real metrics, and output language before it analyzes the project. It keeps unsupported claims out of the final text.
+Use this skill when you want to turn a repository into material for a resume, portfolio, or interview. The skill asks for the target role, JD, personal ownership, deployment status, real metrics, and your preferred output language before it analyzes the project. The output language is user-defined, including Chinese, English, bilingual output, or any other language you specify. It keeps unsupported claims out of the final text.
 
 It rewrites a project around:
 
