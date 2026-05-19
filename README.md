@@ -1,10 +1,13 @@
 # Project Summary Skill / 项目总结 Skill
 
-一个面向 Codex 的项目总结 Skill，用来把真实项目仓库整理成简历项目经历、技术亮点和面试讲稿。
-
-Project Summary is a Codex skill that turns real repositories into resume-ready project stories, technical highlights, and interview talking points.
+<p align="center">
+  <a href="#中文说明"><img src="https://img.shields.io/badge/%E4%B8%AD%E6%96%87-%E4%BB%8B%E7%BB%8D-1677ff?style=for-the-badge" alt="中文介绍"></a>
+  <a href="#english"><img src="https://img.shields.io/badge/English-Introduction-111827?style=for-the-badge" alt="English introduction"></a>
+</p>
 
 ## 中文说明
+
+一个面向 Codex 的项目总结 Skill，用来把真实项目仓库整理成简历项目经历、技术亮点和面试讲稿。
 
 ### 适合什么场景
 
@@ -49,6 +52,8 @@ cp -R project-summary ~/.codex/skills/project-summary
 ```
 
 ## English
+
+Project Summary is a Codex skill that turns real repositories into resume-ready project stories, technical highlights, and interview talking points.
 
 ### When To Use
 
